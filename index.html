@@ -27,29 +27,21 @@
                         <!-- HOME DISPLAY PAGE -->
                         <section>
                             <!-- NAVBAR -->
-                            <div class="sidebar">
-                                <nav class="navbar">
-                                    
-                                    <ul class="navbar-nav">
-                                        <li>Home</li>
-                                        <li>Home</li>
-                                        <li>Home</li>
-                                    </ul>
+                            <div class="sidebar" id="side-menu">
+                                <nav class="navbar" >
+                                        <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
+                                        <a href="#">Home</a>
+                                        <a href="#">Home</a>
+                                        <a href="#">Home</a>
+                                        <a href="#">Home</a>
+                                        <a href="#">Home</a>
+                                        <a href="#">Home</a>
                                 </nav>
-                                <div id="side-menu"class="side-nav">
-                                    <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
-                                    <a href="#">Home</a>
-                                    <a href="#">Home</a>
-                                    <a href="#">Home</a>
-                                    <a href="#">Home</a>
-                                    <a href="#">Home</a>
-                                    <a href="#">Home</a>
-                                </div>
                             </div>
             <!-- Javascript for open and close menu -->
             <script>
               function openSlideMenu(){
-                  document.getElementById('side-menu').style.width = '250px';
+                  document.getElementById('side-menu').style.width = '100px';
                   document.getElementById('main').style.marginLeft = '250px';}
                   function closeSlideMenu(){
                       document.getElementById('side-menu').style.width = 0;
