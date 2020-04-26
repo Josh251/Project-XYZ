@@ -28,7 +28,8 @@ body {
 #carbtn {
     grid-area: car;
     justify-items: start;
-
+    padding-left: 35px;
+    padding-top: 20px;
 }
 .search-box {
     /* position: absolute; */
@@ -59,7 +60,7 @@ body {
     padding: 0;
     color: white;
     line-height: 30px;
-    
+    width: 100px
 }
 ::placeholder {
     color: white;
@@ -71,7 +72,7 @@ section {
     grid-template-columns: repeat(autofit,
     minmax(100px,1fr));
     grid-template-areas: 
-    "sidebar content home";
+    "sidebar main home";
 }
 
 nav {
@@ -153,6 +154,7 @@ nav .btn-close{
 
 }
 #main{
+    grid-area: main;
     transition: margin-left 0.5s;
     padding: 20px;
     overflow: hidden;
