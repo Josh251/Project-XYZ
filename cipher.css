@@ -22,7 +22,7 @@ body {
     grid-template-areas:
     "fas fa-car search";
     grid-area: header;
-    height: 60px;
+    height: 70px;
 }
 
 #carbtn {
@@ -32,22 +32,24 @@ body {
     padding-top: 20px;
 }
 .search-box {
-    /* position: absolute; */
+    position: absolute;
+    right: 3%;
     height: 30px;
     width: 20%;
     grid-area: search;
     background-color: seagreen;
     padding: 10px;
-    border-radius: 40px;
-    justify-items: end;
-    /* align-items: flex-end;
-    justify-content: flex-end; */
+    border-radius: 30px;
+    justify-items: flex-end;
+    justify-content: flex-end; 
 }
 .search-btn {
     color: sienna;
     background-color: seagreen;
     height: 30px;
     border-radius: 50%;
+    float: right;
+    display: flex;
     /* float: right;
     display: flex;
     justify-items: end; */
@@ -60,7 +62,8 @@ body {
     padding: 0;
     color: white;
     line-height: 30px;
-    width: 100px
+    display: inline-flex;
+    align-items: center;
 }
 ::placeholder {
     color: white;
