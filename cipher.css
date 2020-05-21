@@ -131,3 +131,17 @@ nav .btn-close{
     padding-right: 0;
     padding-left: 0
 }
+.d-block w-100{
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+.carousel-item{
+    height: 90vh;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    background-position: center;
+}
+.fixed-top {
+    height: inherit;
+}
